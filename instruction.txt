@@ -57,6 +57,29 @@ once you run you will see like below:
 	test_environment.py
 	tox.ini
 
-create branch = git branch <name>
+git add .
+
+	new file:   src/models/train_model.py
+	new file:   src/visualization/.gitkeep
+	new file:   src/visualization/__init__.py
+	new file:   src/visualization/visualize.py
+	new file:   test_environment.py
+	new file:   tox.ini
+
+
+commit with the message: git commit -m "project setup"
+
+
+connect to the remote or github
+1. create a repo as the same name local
+2. run : git remote add origin https://github.com/seakarki/vehicle_accident_prediction.git
+
+push to the remote: git push -u origin master
+after this u will see the project in github
+
+list all branch: git branch
+create  new branch = git branch <name>
+
+Checkout new branch just created: git checkout <name>
 
 
