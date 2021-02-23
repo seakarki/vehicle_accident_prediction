@@ -1,0 +1,62 @@
+1. Create a project structure using cookiecutter from the terminal
+2. Install cookiecutter using-   pip install  cookiecutter
+3. open the python shell and import: from cookiecutter.main import cookiecutter
+4. cookiecutter('cookiecutter-pypackage/') or for e.g. cookiecutter('https://github.com/audreyr/cookiecutter-pypackage.git')
+5. for more information: https://cookiecutter.readthedocs.io/en/1.7.2/README.html Google for more template as per your need!
+-------------
+
+1. Create a virtual environment
+2. first install pip install virtualenv from terminal
+3. create a virtual env: virtualenv <name>
+4. Activate the virtual env : source <name>/bin/activate
+5. Deactivate the virtual env: deactivate
+
+----------------
+
+(base) Sam@Sea-MacBook-Pro vehicle_accident_prediction % virtualenv vehicle_accident_venv
+created virtual environment CPython3.8.5.final.0-64 in 661ms
+  creator CPython3Posix(dest=/Users/ocean/PycharmProjects/vehicle_accident_prediction/vehicle_accident_venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/ocean/Library/Application Support/virtualenv)
+    added seed packages: pip==21.0.1, setuptools==52.0.0, wheel==0.36.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+(base) Sam@Sea-MacBook-Pro vehicle_accident_prediction % source vehicle_accident_venv/bin/activate
+
+(vehicle_accident_venv) (base) Sam@Sea-MacBook-Pro vehicle_accident_prediction %
+-------------
+
+install required packages : pip install pandas , pip install numpy and so on...
+
+add to the requirements.txt file: pip freeze >> requirements.txt
+python-dotenv>=0.5.1
+numpy==1.20.1
+pandas==1.2.2
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.15.0
+
+
+------push to the git --------
+cwd
+Run: git init
+check: git status
+once you run you will see like below:
+
+	.gitignore
+	LICENSE
+	Makefile
+	README.md
+	docs/
+	instruction.txt
+	models/
+	notebooks/
+	references/
+	reports/
+	requirements.txt
+	setup.py
+	src/
+	test_environment.py
+	tox.ini
+
+create branch = git branch <name>
+
+
