@@ -86,7 +86,8 @@ merge new branch to master : git merge <new_branch>
 install new env to the notebook: ipython kernel install --user --name=vehicle_accident_venv
 list all the venv in jupyter notebook: jupyter kernelspec list
 Remove venv: jupyter kernelspec remove vehicle_accident_venv
-Available kernels:
+Available kernels:pip3 install nest_asyncio
   vehicle_accident_venv    /Users/ocean/Library/Jupyter/kernels/vehicle_accident_venv
   python3                  /Users/ocean/PycharmProjects/vehicle_accident_prediction/vehicle_accident_venv/share/jupyter/kernels/python3
 
+api with flask and fastapi
